@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Odd List</title>
+</head>
+<body>
+    <h1>Check if a word is EVEN or ODD</h1>
+    <hr/> 
+
+    <div>
+        <input type="text" name="word" id="word"  placeholder="Type any word" onkeyup="updateWord(this)">
+    </div>
+    <div>
+        <input type="button" value="Check" onclick="handleSubmit()">
+    </div>
+
+    <section>
+        <h2>Even:</h2>
+        <ul id="even"></ul>
+      </section>
+      <section>
+        <h2>Odd:</h2>
+        <ul id="odd"></ul>
+    </section>
+
+</body>
+<script src="even-odd.js"></script>
+</html>
